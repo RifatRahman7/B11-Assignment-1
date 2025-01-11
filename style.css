@@ -673,24 +673,41 @@ td {
 }
 
 .email {
-    color: rgba(10, 10, 10, 0.3);
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    padding: 18px 40px;
+    border: none;
+    width: 600px;
+    gap: 0px;
+    justify-content: center;
+}
+
+.email::placeholder {
+    color: rgba(14, 14, 14, 0.3);
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
-    border-radius: 8px 0px 0px 8px;
-    background: rgb(255, 255, 255);
-    width: 600px;
-    height: 50px;
-    border: none;
-    justify-content: center;
-    margin-left: 200px;
-    margin-bottom: 15px;
 }
 
-.sub {
+.info {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.subs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.subs-btn {
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
     font-size: 18px;
@@ -699,13 +716,13 @@ td {
     border-radius: 0px 8px 8px 0px;
     border: none;
     background: rgb(0, 106, 80);
-    position: static;
     width: 150px;
-    height: 49px;
+    height: 52px;
 }
+.subs-btn:hover {
+    background-color:rgb(94, 215, 207);
+    border: 1px solid #006A50;
 
-.sub:hover {
-    background-color: rgb(8, 91, 56);
 }
 
 .promise {
